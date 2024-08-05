@@ -5,12 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev":"node -r dotenv/config --watch index.js"
+    "dev": "node -r dotenv/config --watch index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "joi": "^17.13.3",
     "pg": "^8.12.0",
